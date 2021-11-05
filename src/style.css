@@ -345,3 +345,9 @@
         transform: translate(-41%);
     }
 }
+@media (max-width: 379px){
+    .todo__add-input::placeholder {
+        padding-left: 2px;
+        font-size: 9px;
+    }
+}
