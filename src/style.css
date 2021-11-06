@@ -81,7 +81,6 @@
 .todo__left {
     width: 70%;
     height: 50px;
-    background-color: orange;
     position: relative;
 }
 
@@ -119,6 +118,7 @@
     padding-left: 19px;
     left: -20px;
     margin-right: -20px;
+    padding-top: 10px;
 }
 
 .todo__list {
@@ -229,11 +229,11 @@
 
 .todo__list-pin {
     position: absolute;
-    top: 50%;
+    top: 0;
     font-size: 14px;
     left: -5px;
     color: red;
-    transform: translate(-100%, -90%) rotate(-45deg);
+    transform: translateX(-100%) rotate(-45deg);
 }
 
 .vanta {
